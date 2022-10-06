@@ -14,7 +14,7 @@ Parameters:
     MaxLength: 100
     ConstraintDescription: You must enter the EKS cluster name
 
-  GitSourceRepo:
+  GitSourceRepo: 
     Type: String
     Description: GitHub source repository - must contain a Dockerfile and buildspec.yml in the base
     Default: cd0157-Server-Deployment-and-Containerization
@@ -22,7 +22,7 @@ Parameters:
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub repository name
 
-  GitBranch:
+  GitBranch: 
     Type: String
     Default: master
     Description: GitHub git repository branch - change triggers a new build
@@ -38,9 +38,9 @@ Parameters:
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub personal access token
 
-  GitHubUser:
+  GitHubUser: 
     Type: String
-    Default: SudKul
+    Default: Coolhands-frank
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
@@ -54,7 +54,7 @@ Parameters:
     MaxLength: 100
     ConstraintDescription: You must enter a CodeBuild Docker image
 
-  KubectlRoleName:
+  KubectlRoleName: 
     Type: String
     Default: UdacityFlaskDeployCBKubectlRole
     Description: IAM role used by kubectl to interact with EKS cluster
