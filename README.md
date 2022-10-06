@@ -1,6 +1,6 @@
 # Deploying a Flask API
 
-This is the project starter repo for the course Server Deployment, Containerization, and Testing.
+This is the project starter repo for the course Server Deployment, Containerization, and Testing..
 
 In this project you will containerize and deploy a Flask API to a Kubernetes cluster using Docker, AWS EKS, CodePipeline, and CodeBuild.
 
@@ -38,7 +38,7 @@ python -m pip install --upgrade pip==20.2.3
 ```
 * Terminal
    * Mac/Linux users can use the default terminal.
-   * Windows users can use either the GitBash terminal or WSL. 
+   * Windows users can use either the GitBash terminal or WSL.
 * Command line utilities:
   * AWS CLI installed and configured using the `aws configure` command. Another important configuration is the region. Do not use the us-east-1 because the cluster creation may fails mostly in us-east-1. Let's change the default region to:
   ```bash
